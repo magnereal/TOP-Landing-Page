@@ -73,3 +73,32 @@
 .hero-img img {
     /* width: 300px; */
 }
+
+.images img {
+    width: 128px;
+}
+
+.images {
+    margin: 0 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap:150px;
+}
+
+.img-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+/* .images-wrap {
+
+} */
+
+.illustration-info {
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
