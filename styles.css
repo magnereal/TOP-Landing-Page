@@ -20,9 +20,19 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    margin-top: 8px;
+    font-weight: 900;
+}
+
 .logo-text, .hero-text {
     /* background-color: red; */
     color: white;
+}
+
+.hero-text {
+    font-weight: 900;
+    font-size: 48px;
 }
 
 .logo {
@@ -58,10 +68,13 @@ body {
 }
 
 .sign-up {
+    border: none;
     font-size: 18px;
     color:white;
     background-color: #3882f6;
     border-radius: 5px;
+    margin-top: 8px;
+    padding: 5px 20px;
 }
 
 .bottom-header {
@@ -80,7 +93,13 @@ body {
 .hero-img {
     display: flex;
     justify-content: center;
+    height: 203px;
     /* flex-grow: 1; */
+}
+
+.bottom-header{
+    margin-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 .hero-img img {
@@ -117,20 +136,31 @@ body {
     font-weight: 900;
     display: flex;
     justify-content: center;
+    font-size: 36px;
+    margin: 25px 0;
 }
 
 .quote-block {
-    margin: 0 20vw;
+    margin: 25px 20vw;
+    padding: 25px 0;
     display: flex;
     flex-direction: column;
     /* align-items: center; */
     flex-grow: 1;
 }
 
+.citate {
+    color: #1F2937;
+    font-style:italic;
+    font-size:24px;
+}
+
 .citate-author {
     /* margin-left: 95%; */
     display: flex;
     justify-content: flex-end;
+    font-weight: 900;
+    font-size: 18px;
 }
 
 
@@ -140,7 +170,9 @@ body {
 
 .sign-wrap {
     background-color: #3882f6;
-    margin: 0 10vw;
+    margin: 25px 10vw;
+    padding: 25px 0;
+    border-radius: 8px;
 }
 
 .sign-block {
@@ -152,12 +184,38 @@ body {
 
 .footer {
     margin-bottom: 0px;
-    padding: 0 0 16px 0;
+    padding: 16px 0 16px 0;
     background-color: #1F2937;
     color: white;
     display: flex;
     /* flex-shrink: 1; */
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     margin-bottom: 0;
+}
+
+.sign-text {
+    color:white;
+    font-size: 24px;
+}
+
+.sign-subtext {
+    color: wheat;
+    font-size: 18px;
+}
+
+.sign-button {
+    border: 3px solid white;
+    background-color: #3882f6;
+    color:white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-size:18px;
+}
+
+.button-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
